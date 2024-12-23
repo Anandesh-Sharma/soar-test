@@ -78,7 +78,7 @@ module.exports = class ApiHandler {
                 });
             }
         });
-        console.log(this.methodMatrix)
+        // console.log(this.methodMatrix)
         /** expose apis through cortex */
         Object.keys(this.managers).forEach(mk=>{
             if(this.managers[mk].interceptor){
